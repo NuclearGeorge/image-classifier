@@ -1,3 +1,6 @@
+To check one example you can download the next pdf
+https://www.dropbox.com/s/x51wzzjp1fo3fve/IB_JCHC.zip
+
 In[1]= SetDirectory[NotebookDirectory[]];
 In[2]= << "IC_JCHC.m"
 (*List of commands:Print["IM[n], Show the n-th image and their class
