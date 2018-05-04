@@ -1,2 +1,12 @@
 SetDirectory[NotebookDirectory[]];
 << "IC_JCHC.m"
+
+IM[20]
+
+CL[20];
+
+PL[20]
+
+LS[20]
+
+CSV;
