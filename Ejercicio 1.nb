@@ -1,6 +1,49 @@
 SetDirectory[NotebookDirectory[]];
 << "IC_JCHC.m"
-IM[20]
+
+=====================================================
+
+PACKAGE: IMAGE CLASSIFIER
+
+BY: Jorge Chávez Carlos, 2018
+
+=====================================================
+
+This analizer traing and learn with 50,000 images of size: 32x32,
+
+and it can classifier what kind of image is something or a lot of 10,000 test images, with 100 diferent classes.
+
+Link to download:
+
+https://www.dropbox.com/s/x51wzzjp1fo3fve/IB_JCHC.zip
+
+Trining process:
+
+Trining with 50,000 images...
+
+Trining complete!
+
+Trining time: 142.427246 s
+
+Command list:
+
+Using 10,000 test images, with n\[Element][1,10,000]:
+
+IM[n], Show the n-th image and their class
+
+CL[n], Clasifies the n-th image, and give information about of probabilities
+
+PL[n], Returns a plot of the % of probability to do some image
+
+LS[n], Returns a 3-array elements {class, predintion, 1 or 0} where 1- is true, 0 is false
+
+TAB[n], Returns the same information that LS but in terms of # of image
+
+CSV, Create the results.csv file, whit the analysis for all images test.
+
+Listo para comenzar!
+
+=====================================================
 During evaluation of In[4]:= Clase: orange
 
 Out[4]= {\!\(\*
