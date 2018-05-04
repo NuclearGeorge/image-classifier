@@ -6,4 +6,4 @@ PL[n], Returns a plot of the % of probability to do some image
 LS[n], Returns a 3-array elements {class, predintion, 1 or 0} where 1- is true, 0 is false
 TAB[n], Returns the same information that LS but in terms of # of image
 CSV, Create the results.csv file, whit the analysis for all images test.*)
-IM[20]
+In[5] IM[20]
